@@ -36,10 +36,12 @@ Begin by downloading a compatible binary from the latest releases.
 ### Available Binaries
 
 #### Linux
+
 - [Linux amd64](https://install-latest-cli.arkdev.info/latest-release/ark-linux-amd64)
 - [Linux arm64](https://install-latest-cli.arkdev.info/latest-release/ark-linux-arm64)
 
 #### MacOS
+
 - [Apple Silicon](https://install-latest-cli.arkdev.info/latest-release/ark-darwin-arm64)
 - [Apple Intel](https://install-latest-cli.arkdev.info/latest-release/ark-darwin-amd64)
 
@@ -59,13 +61,17 @@ Initialize your wallet and connect to a liquidity provider running an `arkd` ser
 <Tabs>
   <TabItem value="covenant" label="Ark">
 
-    :::tip
-  Please note that the option to use Ark with covenants is only available on the Liquid Network.
-  :::
-  
+```
+:::tip
+```
+
+Please note that the option to use Ark with covenants is only available on the Liquid Network.
+:::
+
 ```bash
 ark init --network liquid --password <password> --server-url <server_url>
 ```
+
   </TabItem>
   <TabItem value="covenant-less" label="clArk" default>
 ```bash
@@ -144,6 +150,7 @@ ark redeem --amount <amount> --address <onchain_address>
 ```
 
 #### Unilateral Redemption
+
 :::info
 The `--force` flag ignores `--address` and `--amount` and redeems all funds.
 :::
@@ -152,8 +159,6 @@ If the Server is unresponsive, redeem all offchain funds:
 ```bash
 ark redeem --force
 ```
-
-
 
 ### Help
 
@@ -174,8 +179,9 @@ ark init --network testnet --password <password> --server-url <server_url>
 
 :::info
 Default data directories:
+
 - POSIX (Linux/BSD): `~/.Ark-cli`
 - Mac OS: `$HOME/Library/Application Support/Ark-cli`
 - Windows: `%LOCALAPPDATA%\Ark-cli`
 - Plan 9: `$home/Ark-cli`
-:::
+  :::
