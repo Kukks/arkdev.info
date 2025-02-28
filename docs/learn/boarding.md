@@ -3,18 +3,18 @@ sidebar_position: 2
 title: 'Boarding the Ark'
 ---
 
-
-## Boarding Transaction 
+## Boarding Transaction
 
 The boarding transaction is a streamlined funding process for [VTXOs](concepts.md#vtxo). This method allows Alice to swap onchain funds to VTXO(s) without requiring interactive steps with the Server, simplifying the initial funding phase and enhancing the efficiency of the protocol.
 
 Alice initiates the process by creating a taproot **boarding address**. The key-path is disabled and the script tree includes two spending contidions:
+
 - **Exit path**: Alice can unlock the funds after a timeout period of 6 months.
 - **Cooperative path**: Alice and the Server cooperate to spend the funds.
 
-| Inputs       | Outputs                                                                     |
-| ------------ | --------------------------------------------------------------------------- |
-| Alice’s UTXO | `(Alice after 6 months) or (Alice + Server)`                                         |
+| Inputs       | Outputs                                      |
+| ------------ | -------------------------------------------- |
+| Alice’s UTXO | `(Alice after 6 months) or (Alice + Server)` |
 
 ## Join the Ark
 
