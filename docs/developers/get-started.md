@@ -66,7 +66,7 @@ import Link from '@docusaurus/Link';
   </style>
 </head>
 
-This guide will help you get started with learning the lifecycle of Ark "virtual" transactions and integrating VTXOs into your applications. 
+This guide will help you get started with learning the lifecycle of Ark "virtual" transactions and integrating VTXOs into your applications.
 Ark perform bitcoin transactions off-chain and then a compressed version of the transactions is posted to on-chain. As transaction data is included in the Bitcoin blockchain, this allows Ark to be secured by native Bitcoin security.
 
 ## Before you start
@@ -92,7 +92,7 @@ Choose your preferred language to get started:
       <Link to="/docs/developers/sdk/go" className="sdk-button">Get Started</Link>
     </div>
   </div>
-  
+
   <div class="sdk-card">
     <div class="sdk-card__header">
       <h3>Rust</h3>
@@ -104,7 +104,7 @@ Choose your preferred language to get started:
       <Link to="/docs/developers/sdk/rust" className="sdk-button">Get Started</Link>
     </div>
   </div>
-  
+
   <div class="sdk-card">
     <div class="sdk-card__header">
       <h3>JavaScript</h3>
@@ -116,7 +116,7 @@ Choose your preferred language to get started:
       <Link to="/docs/developers/sdk/javascript" className="sdk-button">Get Started</Link>
     </div>
   </div>
-  
+
   <div class="sdk-card">
     <div class="sdk-card__header">
       <h3>Python</h3>
