@@ -4,7 +4,7 @@ title: '📜 JavaScript (WASM)'
 ---
 
 :::info
-🚧 👷‍♀️ **Work in Progress** 👷‍♂️ 🏗️ The vanilla JavaScript version of our SDK is currently under development. You can use the WASM binary in the meantime compiled from the Go SDK. 
+🚧 👷‍♀️ **Work in Progress** 👷‍♂️ 🏗️ The vanilla JavaScript version of our SDK is currently under development. You can use the WASM binary in the meantime compiled from the Go SDK.
 :::
 
 ## Installation
